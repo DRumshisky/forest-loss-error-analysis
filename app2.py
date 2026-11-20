@@ -1426,7 +1426,7 @@ with tab10:
         "recomputed live and are shown here as reference images/tables."
     )
 
-    REF_DIR = os.path.join(DATA_DIR, "reference")
+    REF_DIR = os.path.join(os.path.dirname(__file__), "reference")
 
     st.subheader("Prithvi LiteTA Fusion architecture")
     st.image(
